@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7903931742207909654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7903931742207909656}
+  - component: {fileID: 7903931742207909657}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7903931742207909656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7903931742207909654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8236506, y: -2.1016166, z: -5.535547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7903931742207909657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7903931742207909654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc789e3cc58a4948ad8ad1fc0946369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes:
+  - A:4
+  - C:2
+  - F:1
+  - B:4
+  - C:1
+  - C:3
+  - F:2
+  - D:3
+  - E:3
+  - C:4
+  - E:2
+  - E:3
+  - G:4
+  - C:4
+  - E:1
+  - G:3
+  - E:2
+  - G:3
+  - F:3
+  - D:1
+  - A:1
+  - E:4
+  - E:4
+  - F:4
+  - D:3
+  - B:4
+  - F:2
+  - C:1
+  - D:2
+  - D:2
+  - A:1
+  - A:3
+  - E:3
+  - A:1
+  - B:4
+  - D:3
+  - G:4
+  notesSound:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stepY: 2.7
+  stepX: 1.786
+  startPoint: {x: -2.673, y: 0}
+  noteTile: {fileID: 6319038864407056510, guid: 2f47030871beb0b4a867b6be5a745971,
+    type: 3}
+  speed: 6
+  screenYLimit: -6.5
+  scoreText: {fileID: 0}
